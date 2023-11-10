@@ -24,3 +24,22 @@ header > h1{
 header > p{
     font-size: 30px;
 }
+
+ul{
+    list-style-type: none;
+}
+
+i{
+    font-size: 60px;
+    color: rgb(87, 86, 86);
+    transition: .5s;
+}
+
+i:hover{
+    scale: 1.5;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
