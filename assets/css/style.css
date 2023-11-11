@@ -48,3 +48,16 @@ a{
     background-color: rgb(87, 86, 86);
     color: white;
 }
+
+#mis-trabajos{
+    background-color: rgb(87, 86, 86);
+}
+
+footer{
+    height: 3em;
+    line-height: 3em;;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-weight: 700;
+}

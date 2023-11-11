@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+header{
+    background-color: black;
+    padding: 30px;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    background-image: url(../imagenes/iguana-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.information{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 100px 0;
+}
+
+.information > p{
+    width: 500px;
+    color: white;
+}
+
+.information > img{
+    width: 400px;
+}
+
+.characteristics{
+    padding: 100px 0;
+    background-color: rgb(67, 55, 55);
+    color: white;
+    text-align: center;
+}
+
+.characteristics > h2{
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.characteristics > ul{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    list-style-type: none;
+}
+
+.characteristics > ul > li{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transition: .5s;
+}
+
+.characteristics > ul > li:hover{
+    scale: 1.5;
+}
+
+
+.gallery{
+    padding: 50px 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gallery > img{
+    height: 150px;
+    width: 15%;
+    transition: .5s;
+}
+
+.gallery > img:hover{
+    scale: 1.5;
+}
+
+footer{
+    padding: 40px;
+    background-color: rgb(67, 55, 55);
+    color: white;
+}
+
+footer > p{
+    text-align: center;
+    font-size: 20px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    color: rgb(32, 174, 32);
+}
